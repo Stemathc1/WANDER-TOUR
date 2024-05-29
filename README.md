@@ -1,22 +1,46 @@
 # WANDER-TOUR
-Experience the adventure
+README
 
 Data Gallery App
-Overview:
-Created a React application that displays a gallery of different data points fetched from an API. The application includes a main page with a gallery view and a detailed view for individual data points.
-Features:
-1.	Gallery Component:
-o	Created a gallery component that displays a grid or list of data points fetched from the chosen API. Each data point represented as a card or an item in the gallery.
-2.	Detail Component:
-o	Implemented a detail component that displays more detailed information about a specific data point. This component displayed when a user clicks on an item in the gallery.
-3.	API Integration:
-o	Choose an API that provides data of interest:https://ghibliapi.vercel.app/
-o	Fetched data from the API and populate the gallery with items representing each data point.
-4.	Navigation:
-o	Used React Router to enable navigation between the gallery view and the detail view. The URL should change to reflect the current view, and users should be able to navigate back to the gallery from the detail view.
-•	Added a search or filter feature to the gallery to allow users to narrow down the displayed data points.
-•	Implemented pagination or infinite scrolling in the gallery to handle large sets of data.
-•	Enhanced the detail view with additional information or interactive elements related to the selected data point.
 
-API IS https://ghibliapi.vercel.app/
+Overview
+
+The Data Gallery App is a React application that showcases a gallery of data points fetched from the Ghibli API ((link unavailable)). The app features a main page with a gallery view and a detailed view for individual data points, allowing users to explore and navigate through the data.
+
+Features
+
+- Gallery Component:
+    - Displays a grid or list of data points fetched from the Ghibli API
+    - Each data point represented as a card or item in the gallery
+- Detail Component:
+    - Displays detailed information about a specific data point
+    - Shown when a user clicks on an item in the gallery
+- API Integration:
+    - Fetched data from the Ghibli API and populated the gallery with items representing each data point
+- Navigation:
+    - Used React Router to enable navigation between the gallery view and the detail view
+    - URL changes to reflect the current view
+    - Users can navigate back to the gallery from the detail view
+- Search and Filter:
+    - Added a search or filter feature to the gallery to narrow down displayed data points
+- Pagination and Infinite Scrolling:
+    - Implemented pagination or infinite scrolling in the gallery to handle large sets of data
+- Enhanced Detail View:
+    - Added additional information or interactive elements related to the selected data point
+
+Technical Details
+
+- Built with React and React Router
+- Fetches data from the Ghibli API ((link unavailable))
+- Uses React components and hooks for state management and UI rendering
+
+Getting Started
+
+1. Clone the repository and install dependencies with npm install
+2. Start the application with npm start
+3. Open the app in a web browser to explore the data gallery
+
+Note
+
+This project demonstrates a basic React application with API integration, navigation, and interactive features. It can be extended and modified to showcase more complex data visualizations and user interactions.
 
